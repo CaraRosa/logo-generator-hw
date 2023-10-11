@@ -26,6 +26,7 @@
   "homepage": "https://github.com/CaraRosa/logo-generator-hw#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
+    "inquirer-maxlength-input-prompt": "^1.0.2",
     "jest": "^29.7.0"
   }
 }
