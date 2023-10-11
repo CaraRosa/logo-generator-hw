@@ -8,9 +8,9 @@ const fs = require('fs');
 // array of questions that takes user input
 const questions = [
     {
-            type: 'input',
-            name: 'text',
-            message: 'Please enter three characters:'
+        type: 'input',
+        name: 'text',
+        message: 'Please enter three characters:'
     },
     {
         type: 'input',
