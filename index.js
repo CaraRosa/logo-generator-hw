@@ -5,12 +5,16 @@ const jest = require('jest');
 // file system module
 const fs = require('fs');
 
+const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt');
+inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt);
+
 // array of questions that takes user input
 const questions = [
     {
-        type: 'input',
+        type: 'maxlength-input',
         name: 'text',
-        message: 'Please enter three characters:'
+        message: 'Please enter three characters:',
+        maxLength: 3
     },
     {
         type: 'input',
