@@ -11,6 +11,9 @@ The logo generator is built using Jest and Inquirer. Jest is utilized running te
 You can clone or fork this repository to contribute to this project.
 
 ![Terminal with Questions](./images/QuestionsScreenshot.png)
+![Generated Logo](./images/logo.png)
+The Demo Video is linked here:
+[Logo Generator Demo Video](https://www.loom.com/share/486f7f4cbf1e4272b98c211dc23c5be9?sid=1981acc8-02c6-4d5b-bac4-5e18381e03c2) 
 
 ## Credits
 
