@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "na"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
